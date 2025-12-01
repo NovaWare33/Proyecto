@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de Usuario</title>
+</head>
+<body>
+    <div class="container">
+        <aside class="left-sidebar">
+            <div class="nav-menu">
+                <i class="fab fa-twitter logo-icon"></i>
+                <a href="index.html" class="nav-item active"><i class="fas fa-home"></i> Inicio</a>
+                <a href="#" class="nav-item"><i class="fas fa-hashtag"></i> Explorar</a>
+                <a href="#" class="nav-item"><i class="far fa-bell"></i> Notificaciones</a>
+                <a href="#" class="nav-item"><i class="far fa-envelope"></i> Mensajes</a>
+                <button class="post-button">Postear</button>
+            </div>
+            <div class="user-profile">
+                <div class="user-avatar"></div>
+                <div class="user-info">
+                    <strong><a href="Perfil.html">Juan Perez</a></strong>
+                    <span>@juanperez</span>
+                </div>
+            </div>
+        </aside>
+
+        <main class="main-feed">
+            <header class="feed-header">
+                <h2>Inicio</h2>
+            </header>
+
+            <!-- Sección de perfil integrada en el feed -->
+            <div class="profile-section">
+                <img src="https://picsum.photos/100/100?random=1" alt="Foto de perfil" class="profile-pic">
+                <h1 class="name">Juan Pérez</h1>
+                <p class="username">@juanperez</p>
+                <div class="bio">
+                    <p>Hola, soy Juan. Me gusta la tecnología y los viajes. ¡Sígueme para más contenido!</p>
+                    <p><strong>Ubicación:</strong> Madrid, España</p>
+                    <p><strong>Sitio web:</strong> <a href="https://example.com" target="_blank">example.com</a></p>
+                    <p><strong>Se unió en:</strong> Enero 2020</p>
+                </div>
+                <div class="stats">
+                    <div class="stat">
+                        <div class="stat-number">1,234</div>
+                        <div>Siguiendo</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">5,678</div>
+                        <div>Seguidores</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">9,012</div>
+                        <div>Tweets</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline">
+                <div class="tweet">
+                    <span class="tweet-author">Juan Pérez</span> <span class="username">@juanperez</span>
+                    <div class="tweet-content">¡Qué día tan bonito para un paseo! #Naturaleza</div>
+                    <div class="tweet-date">Hace 2 horas</div>
+                </div>
+                <div class="tweet">
+                    <span class="tweet-author">Juan Pérez</span> <span class="username">@juanperez</span>
+                    <div class="tweet-content">Nuevo tutorial de programación disponible en mi sitio. ¡Échale un vistazo!</div>
+                    <div class="tweet-date">Hace 1 día</div>
+                </div>
+                <!-- Agrega más tweets aquí si quieres -->
+            </div>
+        </main>
+    </div>
+</body>
+</html>
